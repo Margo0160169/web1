@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <meta  charset=utf-8">
+  <title>Задание 1</title>
+ </head>
+ <body>
+     <ol>
+  <p ><li><a href="http://example.com/" target="_blank"> Абсолютная гиперссылка </a></li></p> <!-- 1 задание -->
+  <p><li><a href="https://example.com/" target="_blank">Абсолютная гиперссылка 2</a></li></p> <!-- 2 задание -->
+  <p><li><a href="ftp://example.com/myfile.zip" target="_blank">FTP без авторизации</a></li></p> <!-- 3 задание -->
+  <p><li><a href="ftp://user:password@example.com/myfile.zip" target="_blank"> FTP с авторизацией</a></li></p> <!-- 4 задание -->
+  <p id="number5"><li><a href="https://ru.wikipedia.org/wiki/Платон#toc" target="_blank">Ссылка на содержание страницы Википедии</a></li></p> <!-- 5 задание + -->
+  <p><li><a href="#number5">Пятый пункт страницы</a></li></p> <!-- 6 задание + -->
+  <p><li><a href="https://www.youtube.com/watch?v=qSHP98i9mDU&list=PL0lO_mIqDDFXNfqIL9PHQM7Wg_kOtDZsW">Ссылка с 2 параметрами</a></li></p> <!-- 7 задание+ -->
+  <p><li><h3>список ссылок основной навигации сайта с подписями title: </h3>
+  <ul><li><a href="#form" title="forma">Форма</a></li>
+      <li><a href="#15" title="nomber 15">Пункт 15</a></li>
+  </ul></li> </p> <!-- 8 задание -->
+  <p><li><a >Ссылка без href</a></li></p> <!-- 9 задание + -->
+  <p><li><a href="">Ссылка с пустым href </a></li></p> <!-- 10 задание -->
+  <p><li><a href="http://example.com/" rel="nofollow" target="_blank"> Запрещен переход поисковикам</a></li></p> <!-- 11 задание + -->
+  <p><li><!--noindex--><a href="http://example.com/">Запрещена индексация</a> <!--/noindex--></li></p> <!-- 12 задание +-->
+  <p><li> Цветок <a href="https://ru.wikipedia.org/wiki/Роза " target="_blank" >роза</a> является теплолюбивым растением, но он способен расти и цвести в довольно суровом климате. Важным условием для цветения растения является солнечный свет. Если растение посадить в тени, оно может перестать цвести или цветение будет слабым.</li></p> <!-- 13 задание -->
+  <p><li><a target="_blank" href="https://rus-buket.ru/articles/flower-knowledge"><img src="images/image.jpg" alt="Цветы" width="125"height="125"></a></li></p> <!-- 14 задание + -->
+  <p id="15"><li><img src="images/image.jpg" usemap="#figur" width="400"height="400" alt="Фигуры" >
+    <map name="figur"> 
+      <area shape="rect" coords="0,0,130,130"  href="https://ru.wikipedia.org/wiki/Прямоугольник" alt="Прямоугольник">
+      <area shape="circle"coords="280,280,59" href="https://ru.wikipedia.org/wiki/Круг,_Михаил_Владимирович" alt="Круг">
+    </map></li></p>
+  <p><li><a href="newfile.html" target="_blank">Страница в текущем каталоге</a></li></p> <!-- 16 задание +-->
+  <p><li><a href="about/about.html" target="_blank">В каталоге about</a></li></p> <!-- 17 задание +-->
+  <p><li><a href="../1level.html" target="_blank">В каталог на 1 уровень выше</a></li></p> <!-- 18 задание +-->
+  <p><li><a href="../../2level.html" target="_blank">В каталог на 2 уровеня выше</a></li></p> <!-- 19 задание +-->
+  <p><li><a href="Untitled-1.html"> Сокращенная на главную</a></li></p> <!-- 20 задание -->
+  <p><li><a href="about/about.html">сокращенная ссылка на внутреннюю</a></li></p> <!-- 21 задание -->
+</ol>
+
+
+
+<h1 id="form">Форма:</h1>
+<form>
+Имя:<br>
+<input type="text" name="firstname" id="firstname"><br>
+e-mail:<br>
+<input type="email" name="email" ><br>
+Дата рождения:<br>
+<input type="date" name="date" ><br> </form>
+<h3>Выберите пол: </h3>
+<form>
+  <input type="radio" name="gender" value="women">женский<br>
+  <input type="radio" name="gender" value="men">мужской<br>
+</form>
+<h3>Выберите кол-во конечностей: </h3>
+<form>
+  <input type="radio" name="body" value="one">1<br>
+  <input type="radio" name="body" value="two">2<br>
+  <input type="radio" name="body" value="three">3<br>
+  <input type="radio" name="body" value="four">4<br>
+  <input type="radio" name="body" value="tive">5<br>
+</form>
+<p><h3>Выберите сверхспособности: </h3>
+  <select name="force"  multiple>
+  <option value="1" selected="selected"> бессмертие </option>
+  <option value="2" selected="selected"> прохождение сквозь стены </option>
+  <option value="3" selected="selected"> левитация </option> 
+  </select></p>
+  <h3>Биография: </h3>
+<textarea rows="10" cols="240">
+</textarea>
+<form>
+  <br>
+  <input type="checkbox" name="soglasie">С контрактом ознакомлен(а) <br>
+ <br>
+  <input type="submit" value="Отправить"> <br>
+</form>
+ </body>
+</html>
