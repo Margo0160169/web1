@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta  charset="utf-8">
-  <title>Задание 1</title>
+  <meta  http-equiv="Content-type" content="text/html"; charset="utf-8"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
  </head>
  <body>
-   <h1>Задание 1</h1>
+   <div id="shapka">
+   <header> <!-- Шапка профиля -->
+  <img id="logo" src="images/image2.png" alt="Логотип">
+   <h1>Моя страница</h1>
+   </header>
+  </div>
+   <div class="fon" id="menu">
+   <nav>
+    <a href="index.html">Главная</a>
+      <a href="#">Связь с нами</a>
+        <a href="#">Источники</a>
+   </nav>
+  </div>
+   <div class="fon">
      <ol>
+  <h2>Гиперссылки:</h2>
   <li><a href="http://example.com/about" target="_blank"> Абсолютная гиперссылка </a></li> <!-- 1 задание -->
   <li><a href="https://example.com/about" target="_blank">Абсолютная гиперссылка 2</a></li> <!-- 2 задание -->
   <li><a href="ftp://public.ftp-servers.example.com/myfile.zip" target="_blank">FTP без авторизации</a></li> <!-- 3 задание -->
@@ -14,7 +28,7 @@
    <li id="number5"><a href="https://ru.wikipedia.org/wiki/Платон#toc" target="_blank">Ссылка на содержание страницы Википедии</a></li> <!-- 5 задание + -->
   <li><a href="#number5">Пятый пункт страницы</a></li> <!-- 6 задание + -->
   <li><a href="https://www.youtube.com/watch?v=qSHP98i9mDU&list=PL0lO_mIqDDFXNfqIL9PHQM7Wg_kOtDZsW">Ссылка с 2 параметрами</a></li> <!-- 7 задание+ -->
-  <li><h4>список ссылок основной навигации сайта с подписями title: </h4>
+  <li>Cписок ссылок основной навигации сайта с подписями title: 
   <ul><li><a href="#form" title="forma">Форма</a></li>
       <li><a href="#p15" title="nomber 15">Пункт 15</a></li>
   </ul></li>  <!-- 8 задание -->
@@ -36,8 +50,56 @@
   <li><a href="index.html"> Сокращенная на главную</a></li> <!-- 20 задание -->
   <li><a href="about/about.html">сокращенная ссылка на внутреннюю</a></li> <!-- 21 задание -->
 </ol>
+</div>
+<div class="fon ">
+<table>
+  <thead>
+  <tr class="fon nechet">
+   <th colspan="4">Ингридиенты:</th>
+  </tr>
+<tr class="fon chet">
+ <th>Номер </th>
+<th>Продукты </th>
+<th>Вес </th>
+<th>Цена(руб) </th>
+</tr>
+</thead>
+<tbody>
+<tr class="fon nechet">
+  <td>1</td>
+  <td>Молоко </td>
+  <td>1,5 </td>
+  <td >42 </td>
+  </tr>
+  <tr class="fon chet">
+    <td>2</td>
+    <td>Мука </td>
+    <td>100</td>
+    <td rowspan="2">78</td>
+    </tr>
+    <tr class="fon nechet">
+      <td>3</td>
+      <td>Яйца </td>
+      <td>3 </td>
+      </tr>
+      <tr class="fon chet">
+        <td>4</td>
+        <td>Дрожжи </td>
+        <td>1</td>
+        <td>16</td>
+        </tr>
+        <tr class="fon nechet">
+          <td>5</td>
+          <td>Сахар</td>
+          <td>1,5</td>
+          <td>38</td>
+          </tr>
+        </tbody>
+</table>
+</div>
+<div class="fon tab">
 <h1 id="form">Форма:</h1>
-<form>
+<form  >
 Имя:<br>
 <input type="text" name="firstname" id="firstname"><br>
 e-mail:<br>
@@ -64,7 +126,7 @@ e-mail:<br>
   <option value="3" > левитация </option> 
   </select>
   <h3>Биография: </h3>
-<textarea rows="10" cols="240">
+<textarea rows="10" cols="240" style="width:99%" >
 </textarea>
 <form>
   <br>
@@ -72,5 +134,9 @@ e-mail:<br>
  <br>
   <input type="submit" value="Отправить"> <br>
 </form>
+</div>
+<div id="footer">
+  (c) Маргарита Нагапетян 2021
+</div>
  </body>
 </html>
