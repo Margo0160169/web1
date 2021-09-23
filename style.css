@@ -22,10 +22,14 @@ header{
     a{
         color: #150933ea;
     }
-    #queue table{
+    #queue
+    { display: flex;
+flex-direction: column;
+    }
+    #queue#qut{
      order: 2;
     }
-    #queue form{
+    #queue#quf{
         order: 1;
     }
     table{
@@ -35,11 +39,11 @@ header{
     }
     .fon{
         margin: auto;
+        width: 100%;
         background-color: #d6c1db;
         border: 2px solid #000000;
         margin-top: 50px;
         margin-bottom: 50px;
-        width: 100%;
         padding: 10px;
     }
     
@@ -56,9 +60,12 @@ header{
         padding: 5px;
     }
     nav{
+        display: flex;
+        flex-direction: column;
         color: #281358ea;
         text-align: center;
-        clear: both;	 
+        clear: both;
+        width: 100%;	 
     }
     #logo{
     padding-top: 10px;
@@ -78,7 +85,6 @@ header{
         font-size: 300%;
       }
       #menu a{
-        flex-direction: row;
           margin-right: 100px;
          }
     footer
@@ -91,23 +97,21 @@ header{
         width: 100%;
     }
     @media screen and (min-width: 800px) {
-        .fon{
+       nav{
+           flex-direction: row;
+           max-width: 960px;
+       }
+       nav div{
+           margin: 0 auto;
+       }
+       .fon{
         width: 60%;
-        max-width: 960px;
-        }
-        body{
-            background-image: url(images/flowers.jpg);
-            background-size: cover;
-            margin: 0px;
-        }
-     #queue table{
-     order: 1;
-     }
-    #queue form{
-     order: 2;
-     }
-    #menu a{
-        display: inline-block;
-     margin-right: 100px;
-         }
+        max-width: 960px; 
+       }
+       #queue#qut{
+        order: 1;
+       }
+       #queue#quf{
+           order: 2;
+       }
     }
