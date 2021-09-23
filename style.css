@@ -1,3 +1,4 @@
+
 header{
     background-color: #897f9eea;
     color: #FFFFFF;
@@ -13,12 +14,19 @@ header{
         border: 3px solid #000000;
     }
     body{
+        flex-direction: column;
         background-image: url(images/flowers.jpg);
         background-size: cover;
         margin: 0px;
     }
     a{
         color: #150933ea;
+    }
+    #queue table{
+     order: 2;
+    }
+    #queue form{
+        order: 1;
     }
     table{
         border-collapse: collapse;
@@ -31,8 +39,7 @@ header{
         border: 2px solid #000000;
         margin-top: 50px;
         margin-bottom: 50px;
-        width: 60%;
-        max-width: 960px;
+        width: 100%;
         padding: 10px;
     }
     
@@ -71,15 +78,36 @@ header{
         font-size: 300%;
       }
       #menu a{
+        flex-direction: row;
           margin-right: 100px;
          }
     footer
     {
-        position: fixed;
         left: 0;
         bottom: 0;
         padding: 10px;
         background-color: #281358ea;
         color: #FFFFFF;
         width: 100%;
+    }
+    @media screen and (min-width: 800px) {
+        .fon{
+        width: 60%;
+        max-width: 960px;
+        }
+        body{
+            background-image: url(images/flowers.jpg);
+            background-size: cover;
+            margin: 0px;
+        }
+     #queue table{
+     order: 1;
+     }
+    #queue form{
+     order: 2;
+     }
+    #menu a{
+        display: inline-block;
+     margin-right: 100px;
+         }
     }
