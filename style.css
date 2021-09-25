@@ -1,26 +1,4 @@
 
-@media screen and (max-device-width: 480px) {
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-    nav div{
-        margin: 0 auto;
-    }
-    header{
-        width: 100%;
-    }
-    .fon{
-        margin: auto;
-        width: 100%;
-    }
-    #queue #qut{
-     order: 2;
-    }
-    #queue #quf{
-        order: 1;
-    }
- }
 header{
     background-color: #897f9eea;
     color: #FFFFFF;
