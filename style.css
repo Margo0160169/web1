@@ -1,30 +1,3 @@
-@media only screen and (min-width: 280px) and (max-width: 400px){
-    nav{
-        flex-direction: column;
-        max-width: 960px;
-    }
-    nav div{
-        margin: 0 auto;
-        width: 100%;
-    }
-    #menu a{
-     margin-right: 50px;
-    }
-    header{
-        width: 100%;
-        max-width: 960px; 
-    }
-    .fon{
-        margin: auto;
-        width: 100%;
-    }
-    #queue #qut{
-     order: 2;
-    }
-    #queue #quf{
-        order: 1;
-    }
-}
 
 header{
     background-color: #897f9eea;
@@ -122,7 +95,7 @@ flex-direction: column;
         color: #FFFFFF;
         width: 100%;
     }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 800px) and (orientation: landscape) {
        nav{
            flex-direction: row;
            max-width: 960px;
