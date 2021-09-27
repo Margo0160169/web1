@@ -6,6 +6,7 @@ header{
     padding: 5px;
     margin-top: 20px;
     margin: auto;
+    font-size: calc(1vw+0.7em);
     }
     #shapka{
         width: 100%;
@@ -44,6 +45,7 @@ flex-direction: column;
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 10px;
+        font-size: calc(1vw+0.7em);
     }
     
     .chet
