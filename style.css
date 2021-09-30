@@ -45,6 +45,8 @@ flex-direction: column;
         margin: 0 auto;
         width: 100%;
         max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-color: #d6c1db;
         border: 2px solid #000000;
         font-size: calc(1vw+0.7em);
@@ -103,6 +105,7 @@ flex-direction: column;
            flex-direction: row;
            max-width: 960px;
            text-align: center;
+           padding: 10px;
        }
        nav div{
            margin: 0 auto;
@@ -118,7 +121,8 @@ flex-direction: column;
         width: 60%;
         max-width: 960px; 
         margin: auto;
-    
+        margin-top: 20px;
+        margin-bottom: 20px;
        }
        #queue #qut{
         order: 1;
@@ -127,5 +131,3 @@ flex-direction: column;
            order: 2;
        }
     }
-
-
