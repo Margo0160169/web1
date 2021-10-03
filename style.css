@@ -2,51 +2,27 @@ header{
     background-color: #897f9eea;
     color: #FFFFFF;
     position: relative; 
-    width: 100%;
-    padding: 5px;
-    margin-top: 20px;
     margin: auto;
     font-size: calc(1vw+0.7em);
     }
     #shapka{
-        width: 100%;
         background-color:  #897f9eea;
         border: 3px solid #000000;
     }
     body{
-        flex-direction: column;
         background-image: url(images/flowers.jpg);
         background-size: cover;
-        margin: 0px;
     }
     a{
-        color: #150933ea;
-    }
-    #queue
-    { display: flex;
-flex-direction: column;
-    }
-    #queue #qut{
-     order: 2;
-    }
-    #queue #quf{
-        order: 1;
+        color: #0a021fea;
     }
     table{
         border-collapse: collapse;
         margin: 0px auto;
         text-align: center;  
     }
-    .container{
-        display: flex;
-        flex-direction: column;
-     }
     .fon{
         margin: 0 auto;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
         background-color: #d6c1db;
         border: 2px solid #000000;
         font-size: calc(1vw+0.7em);
@@ -61,73 +37,34 @@ flex-direction: column;
         background-color: #FFFFFF; 
     }
     th,td {
+        color: #000000;
         border: 1px solid #000000;
         padding: 5px;
     }
     nav{
-        display: flex;
-        flex-direction: column;
         color: #281358ea;
         clear: both;
-        width: 100%;	 
     }
     #logo{
-    padding-top: 10px;
-    width: 90px;
-    height: 90px;
     float: left;
-    margin-right: 10px;
     border-radius: 50%;
-    }
-    #text{
-    font-size: xx-large;
-    padding-bottom: 15px;
+    border: 1px solid #000000;
     }
     header h1{
-        margin-top: 30px;
-        font-style: oblique;
+        font-style:italic;
         font-size: 300%;
       }
-      #menu a{
-          margin-right: 50px;
-         }
     footer
     {
-        left: 0;
-        bottom: 0;
-        padding: 10px;
         background-color: #281358ea;
         color: #FFFFFF;
-        width: 100%;
     }
     @media screen and (min-width: 700px) and (orientation: landscape) {
-       nav{
-           flex-direction: row;
-           max-width: 960px;
-           text-align: center;
-           padding: 10px;
-       }
-       nav div{
-           margin: 0 auto;
-       }
-       #menu a{
-        margin-right: 50px;
-       }
        header{
-           width: 60%;
-           max-width: 960px; 
+        width: 60%;
        }
        .fon{
-        width: 60%;
-        max-width: 960px; 
+        width: 60%; 
         margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-       }
-       #queue #qut{
-        order: 1;
-       }
-       #queue #quf{
-           order: 2;
        }
     }
