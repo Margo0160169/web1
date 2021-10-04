@@ -29,15 +29,17 @@ header{
     }
     
     .chet
-    { text-align: center;
-        background-color: #281358ea; 
+    { 
+        background-color: #291850c2; 
+        color:#e4dede;
     }
     .nechet
-    { text-align: center;
+    { 
         background-color: #FFFFFF; 
+        color: #000000;
     }
     th,td {
-        color: #000000;
+        text-align: center;
         border: 1px solid #000000;
         padding: 5px;
     }
